@@ -23,3 +23,4 @@ total_summary <- mecha_suspension %>% summarize(Mean = mean(PSI), Median = media
 #3. Create a lot_summary df using group_by and summarize to group by manufacturing lot on PSI column.
 lot_summary <- mecha_suspension %>% group_by(Manufacturing_Lot) %>% summarize(No_of_Coils = n(), Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups='keep')
 
+
