@@ -46,3 +46,26 @@ The p-Value for this model, p-Value: 5.35e-11, is smaller than the allowable sig
 * **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 The R-squared value can be used to predict performance of a model. The effectiveness of the model is dependent on the level of precision needed for the specific project. In this case, the R-squared value is 0.7149, or 71.49%, meaning that the model is correct 70% of the time . For this project, that is likely an okay level of precision and indicates that the model is effective. It is recommended that the value should be reviewed by stakeholders to ensure that it is an okay level.
+
+## Deliverable 2 - Summary Statistics on Suspension Coils
+### *R-Script*
+
+<img width="1370" alt="image" src="https://user-images.githubusercontent.com/94259442/158078327-2e9c25dc-0d3a-4296-8630-644fa867bedd.png">
+
+### *Output*
+
+*Total Summary*
+
+<img width="341" alt="image" src="https://user-images.githubusercontent.com/94259442/158078458-3efe0d83-fc5c-4343-890c-c04b1cbb88c2.png">
+
+*Lot Summary*
+
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/94259442/158078355-4f222fcd-2fa0-4799-89bf-e3f7657abf71.png">
+
+### *Results*
+
+* **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+The outputs above shows the PSI (pounds per square inch) summary of the suspension coil lots. The overall total summary of the lots combined have a PSI variance of 62.3, which is within the allowed 100 pound variance. However, when looked at by lot, it can be noted that Lot 3 is outside of the variance allowance with a variance of 170.3 pounds. Lots 1 and 2 are within the limits, at less than one pound and about 7.5 pounds, respectively. It would be recommended that Lot 3 be re-tested to ensure the variance was accurate, or immediately discarded and not allowed for use in the cars.
+
+
