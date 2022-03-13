@@ -24,7 +24,7 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/94259442/158076468-479e92ef-edb0-401e-ae9f-77346ef4150f.png">
 
-### *Results:*
+### *Results*
 
 Linear regression was conducted using summary() of lm(). Below are a few key notes about this calcuation (copied/adapted from https://feliperego.github.io/blog/2015/10/23/Interpreting-Model-Output-In-R):
 
