@@ -94,3 +94,13 @@ The outputs above shows the PSI (pounds per square inch) summary of the suspensi
 ### *Results*
 
 Based on the above t-tests, it can be concluded that the null hypothesis should only be rejected for Lot 3 (p = 0.04168), meaning there may be significant differences from the mean population. It is recommended that Lot 3 be further reviewed or discarded. The overall test, Lot 1, and Lot 2 p values (0.06028, 1, and 0.6702 respectively) are not less than 0.05, so the null hypothesis cannot be rejected and it can be assumed that each group is not statistically different from the population mean.
+
+## Deliverable 4 - Study Design: MechaCar vs Competition
+One of MechaCar's goals within the next decade is to become the premium choice for buyers looking for a family car. MechaCar will evaulate their rankings in price, features, and safety ratings compared to competitors over the next five years to determine feasibilty of becoming the top purchased family car vehicle.
+
+### Hypothesis
+H0 (null hypothesis): Based on its number one ranking in price, features, and safety ratings compared to its competitors, MechaCar will be the top purchased vehicle by consumers looking for a family car.
+Ha (alternative hypothesis): If MechaCar is unable to rank as number one in the categories of price, features, and safety ratings compared to its competitors, MechaCar will not be the top purchased vehicle by consumers looking for a family car.
+
+### Tests
+To start, it would be recommended to conduct a two sample t-test to compare the various competitors against MechaCar. Additionally, chi-squared tests could be used to compare specific options within the rankings to determine what impact each option has on the overall ranking (ex. see if there is a relationship between buyers looking for a an entertainment system in the car and preference for price range).
