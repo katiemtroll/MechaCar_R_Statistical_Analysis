@@ -68,4 +68,29 @@ The R-squared value can be used to predict performance of a model. The effective
 
 The outputs above shows the PSI (pounds per square inch) summary of the suspension coil lots. The overall total summary of the lots combined have a PSI variance of 62.3, which is within the allowed 100 pound variance. However, when looked at by lot, it can be noted that Lot 3 is outside of the variance allowance with a variance of 170.3 pounds. Lots 1 and 2 are within the limits, at less than one pound and about 7.5 pounds, respectively. It would be recommended that Lot 3 be re-tested to ensure the variance was accurate, or immediately discarded and not allowed for use in the cars.
 
+## Deliverable 3 - T-Tests on Suspension Coils
+### *R-Script*
 
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/94259442/158079014-5f601d98-9d99-48dd-95c9-531bdfe1af8c.png">
+
+### *Output*
+
+*Overall t-test*
+
+<img width="407" alt="image" src="https://user-images.githubusercontent.com/94259442/158079035-eea2ad8a-8099-40cb-9131-74012393b61f.png">
+
+*Lot 1 t-test*
+
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/94259442/158079050-f5e50390-5114-43f0-a25b-c87ac69ff6da.png">
+
+*Lot 2 t-test*
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/94259442/158079060-233dfe3a-ba52-4890-bf23-52d31df9f47e.png">
+
+*Lot 3 t-test*
+
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/94259442/158079077-de6c845d-a98d-4cb0-aa4d-8d917e24bd4e.png">
+
+### *Results*
+
+Based on the above t-tests, it can be concluded that the null hypothesis should only be rejected for Lot 3 (p = 0.04168), meaning there may be significant differences from the mean population. It is recommended that Lot 3 be further reviewed or discarded. The overall test, Lot 1, and Lot 2 p values (0.06028, 1, and 0.6702 respectively) are not less than 0.05, so the null hypothesis cannot be rejected and it can be assumed that each group is not statistically different from the population mean.
