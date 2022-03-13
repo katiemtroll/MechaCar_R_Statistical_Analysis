@@ -60,7 +60,7 @@ The R-squared value can be used to predict performance of a model. The effective
 
 *Lot Summary*
 
-<img width="596" alt="image" src="https://user-images.githubusercontent.com/94259442/158078355-4f222fcd-2fa0-4799-89bf-e3f7657abf71.png">
+<img width="590" alt="image" src="https://user-images.githubusercontent.com/94259442/158078624-afed32a9-99bf-4e54-bf51-203d520d4821.png">
 
 ### *Results*
 
