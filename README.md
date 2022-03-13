@@ -16,15 +16,15 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 * Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 ## Deliverable 1 - Linear Regression to Predict MPG
-*R- Script*
+### *R- Script*
 
 <img width="920" alt="image" src="https://user-images.githubusercontent.com/94259442/158076442-9a0657f2-465c-42a8-bcfc-61d3e719484b.png">
 
-*Output*
+### *Output*
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/94259442/158076468-479e92ef-edb0-401e-ae9f-77346ef4150f.png">
 
-*Results:*
+### *Results:*
 
 Linear regression was conducted using summary() of lm(). Below are a few key notes about this calcuation (copied/adapted from https://feliperego.github.io/blog/2015/10/23/Interpreting-Model-Output-In-R):
 
